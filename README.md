@@ -1,12 +1,13 @@
-# Poções e Soluções
+# Atividade Web 2 - Loja "Poções e Soluções"
 
-Loja virtual de poções — projeto desenvolvido para a disciplina **SCC0219 - Introdução ao Desenvolvimento Web** (ICMC/USP).
+Web Service que permita a vendedora cadastrar, listar e remover poções, as quais possuem os campos nome, descrição, imagem e preço.
+Possui uma página de administração que permita realizar essas três ações.
 
 ## Tecnologias utilizadas
 
 - Node.js + Express
 - Sequelize ORM com SQLite em memória
-- HTML, CSS e JavaScript puro
+- HTML, CSS e JS puro
 - AJAX via Fetch API
 
 ## Pré-requisitos
