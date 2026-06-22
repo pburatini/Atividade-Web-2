@@ -77,8 +77,8 @@ A sessão é mantida enquanto a aba do navegador estiver aberta. O botão **Sair
 
 ```json
 {
-  "nome": "Poção da Sorte",
-  "descricao": "Traz fortuna a quem a bebe.",
+  "nome": "Poção de Força",
+  "descricao": "É concebido a quem bebe essa poção super força durante uma hora.",
   "imagem": "https://exemplo.com/imagem.jpg",
   "preco": 250
 }
