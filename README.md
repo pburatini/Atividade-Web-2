@@ -1,6 +1,6 @@
 # Atividade Web 2 - Loja "Poções e Soluções"
 
-Web Service que permita a vendedora cadastrar, listar e remover poções, as quais possuem os campos nome, descrição, imagem e preço.
+Web Service que permite a vendedora cadastrar, listar e remover poções, as quais possuem os campos nome, descrição, imagem e preço.
 Possui uma página de administração que permita realizar essas três ações.
 
 ## Tecnologias utilizadas
