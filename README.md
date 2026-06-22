@@ -12,6 +12,11 @@ Possui uma página de administração que permita realizar essas três ações.
 
 ## Abrindo o projeto via localhost:
 
+**"Preparando" o projeto pra rodar:
+```bash
+npm install
+```
+
 **Modo desenvolvimento** (reinicia automaticamente ao salvar):
 ```bash
 npm run dev
