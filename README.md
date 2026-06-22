@@ -10,17 +10,7 @@ Possui uma página de administração que permita realizar essas três ações.
 - HTML, CSS e JS puro
 - AJAX via Fetch API
 
-## Pré-requisitos:
-
-- Node.js
-
-## Instalação:
-
-```bash
-npm install
-```
-
-## Como abrir o projeto via localhost:
+## Abrindo o projeto via localhost:
 
 **Modo desenvolvimento** (reinicia automaticamente ao salvar):
 ```bash
