@@ -12,7 +12,7 @@ Possui uma página de administração que permita realizar essas três ações.
 
 ## Abrindo o projeto via localhost:
 
-**"Preparando" o projeto pra rodar:
+**"Preparando" o projeto pra rodar**:
 ```bash
 npm install
 ```
