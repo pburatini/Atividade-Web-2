@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administração — Poções e Soluções</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="tela-login" class="tela-login">
+    <div class="login-box">
+      <h2>Área Restrita</h2>
+      <p class="login-subtitulo">Acesso exclusivo para administradores</p>
+      <form id="form-login">
+        <div class="campo">
+          <label for="usuario">Usuário</label>
+          <input type="text" id="usuario" autocomplete="username" required>
+        </div>
+        <div class="campo">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" autocomplete="current-password" required>
+        </div>
+        <button type="submit" class="botao botao-login">Entrar</button>
+        <a href="index.html" class="botao-cancelar">Cancelar</a>
+        <p id="erro-login" class="mensagem-feedback erro"></p>
+      </form>
+    </div>
+  </div>
+
+  <header class="cabecalho">
+    <div class="cabecalho-conteudo">
+      <h1>Poções e Soluções</h1>
+      <nav>
+        <a href="index.html">Loja</a>
+        <a href="admin.html">Administração</a>
+        <button id="btn-logout" class="btn-logout" onclick="fazerLogout()">Sair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo-admin">
+    <section class="secao">
+      <div class="container">
+
+        <div class="formulario">
+          <h2>Cadastrar Poção</h2>
+          <form id="form-pocao">
+            <div class="campo">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" placeholder="Ex: Poção de Força" required>
+            </div>
+            <div class="campo">
+              <label for="descricao">Descrição</label>
+              <textarea id="descricao" placeholder="Descreva a poção..." required></textarea>
+            </div>
+            <div class="campo">
+              <label for="imagem">URL da Imagem</label>
+              <input type="url" id="imagem" placeholder="https://..." required>
+            </div>
+            <div class="campo">
+              <label for="preco">Preço (moedas)</label>
+              <input type="number" id="preco" min="0" step="1" placeholder="Ex: 150" required>
+            </div>
+            <button type="submit" class="botao">Cadastrar</button>
+            <p id="mensagem" class="mensagem-feedback"></p>
+          </form>
+        </div>
+
+        <div class="secao-lista">
+          <h2>Poções Cadastradas</h2>
+          <table class="tabela-pocoes">
+            <thead>
+              <tr>
+                <th>Imagem</th>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+                <th>Ação</th>
+              </tr>
+            </thead>
+            <tbody id="corpo-tabela"></tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="admin.js"></script>
+
+</body>
+</html>
