@@ -46,7 +46,7 @@ A sessão é mantida enquanto a aba do navegador estiver aberta. O botão **Sair
 - Seção com uma breve descrição da loja
 - Seção mostrando a história da loja
 - Seção da loja em si --> grade de poções carregada dinamicamente via AJAX, em que cada card exibe o nome, a imagem, uma descrição, o preço e um botão de **Comprar** (OBS: não foi implementada a funcionalidade de compra)
-- Footer contato e horário de funcionamento
+- Footer com contato e horário de funcionamento
 
 ### Administração (`admin.html`):
 - Login com usuário e senha --> acesso restrito
